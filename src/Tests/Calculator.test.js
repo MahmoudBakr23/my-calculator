@@ -75,4 +75,14 @@ describe('Test calculate function', () => {
     const { total } = state;
     expect(total).toEqual(null);
   });
+
+  const decimal = ['5', '.', '3', '+', '8', '='];
+
+  test('Test decimal operations', () => {
+    decimal.forEach((i) => {
+      state = { ...state, ...calculate(state, i) };
+    });
+    const { total } = state;
+    expect(total).toEqual('13.3');
+  });
 });

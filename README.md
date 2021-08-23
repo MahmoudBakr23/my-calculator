@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Coming Soon](https://damp-lowlands-73562.herokuapp.com/)
+[See project](https://damp-lowlands-73562.herokuapp.com/)
 
 ## Getting Started
 

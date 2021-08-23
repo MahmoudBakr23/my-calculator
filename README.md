@@ -27,6 +27,8 @@ Then run the following command line
 - `cd my-calculator`
 Then install the required npm packages to run the app
 - `npm i`
+Then run this command line to fix any eslint errors that may prevent the app from running
+- `npx eslint . --fix`
 Then run this command line to start the app
 - `npm run start`
 

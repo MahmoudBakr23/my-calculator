@@ -1,6 +1,6 @@
 const Home = () => (
   <div className="home">
-    <h1>This is the home page.</h1>
+    <h1>Welcome to my calculator app.</h1>
   </div>
 );
 
